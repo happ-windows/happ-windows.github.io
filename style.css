@@ -1031,4 +1031,25 @@ a { text-decoration: none; color: inherit; transition: 0.2s; }
         flex-direction: column;
         gap: 20px;
     }
+
+}
+
+.footer-legal {
+    max-width: 70%;
+    text-align: left;
+}
+
+.disclaimer {
+    margin-top: 15px;
+    font-size: 11px; /* Мелкий шрифт, как в серьезных лицензиях */
+    line-height: 1.5;
+    color: var(--muted);
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .footer-legal {
+        max-width: 100%;
+        text-align: center;
+    }
 }
